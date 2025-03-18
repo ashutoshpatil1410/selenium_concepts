@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="mysuite">
+	<test name="mytest">
+		<groups>
+			<run>
+				<include name="sanity"/> <!--If we do like this all sanity will run but we exclude tag enable then-->
+				<!--In other stuff sanity aslo coming then it will not run-->
+				<!--<exclude name="regression"/>-->
+				<!--<exclude name="functional"/>-->
+			</run>
+		</groups>
+
+		<classes>
+			<class name="grouping.Functional" />
+			<class name="grouping.Regression" />
+			<class name="grouping.Sanity" />
+		</classes>
+	</test>
+</suite>
+
+
