@@ -24,4 +24,4 @@ This repository covers the fundamental concepts of Selenium WebDriver automation
 ## How to Use
 1. Clone this repository:
    ```bash
-   
+   https://github.com/ashutoshpatil1410/selenium_concepts.git
