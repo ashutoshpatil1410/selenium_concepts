@@ -20,6 +20,7 @@ This repository covers the fundamental concepts of Selenium WebDriver automation
 - Java
 - Selenium WebDriver
 - TestNG
+- Run the tests from `src/test/java`.
 
 ## How to Use
 1. Clone this repository:
